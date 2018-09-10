@@ -31,8 +31,7 @@ if random.randint(1, 10) == 3:
 		"suck my dick and balls", "how is it possible to be such a TOOL",
 		"delete your fucking account you skank", "you're horrid",
 		"i loathe you", "this fediverse isn't big enough for the two of us",
-		"get nae nae'd", "you're the worst", "begone thot", "you're a stink",
-		"you are my mistress and i live to serve you"]
+		"get nae nae'd", "you're the worst", "begone thot", "you're a stink"]
 		prefaces = ["hey", "guess what", "", "special message for",
 		"telegram for", "bringing this fight to mastodon."]
 		toot = "{} @lynnesbian@deadinsi.de {}".format(
@@ -67,8 +66,7 @@ prefixes = ["hot take:", "listen up everbody.", "dear liberal snowflakes,",
 "i'm gonna get shit for this but", "somebody had to say this:",
 "i may be a lowly python script, but", "", "beep boop", "heads up:", 
 "from now on,", "protip:", "life advice:", "take it from me,",
-"as a slime girl,", "as a robot,", "beep boop", "beep", "boop",
-"@lynnesbian@deadinsi.de i have made a post for you, mistress:\n"]
+"as a slime girl,", "as a robot,"]
 if random.randint(1, 10) == 3:
 	#add a prefix
 	if len(toot) < 500:
