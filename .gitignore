@@ -1,0 +1,5 @@
+.python-version
+__pycache__/
+clientcred.secret
+usercred.secret
+corpus.txt
