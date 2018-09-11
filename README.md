@@ -9,7 +9,7 @@ Based on the [Lynnesbian](https://github.com/Lynnesbian/mastodon-ebooks) fork of
 This tool is not currently on [PyPI](https://pypi.org/) and so requires you to install it from source using [git](https://git-scm.com/) and [pip](https://pip.pypa.io/en/stable/installing/):
 
 ```bash
-$ git clone garbados/mastodon-ebooks
+$ git clone git@github.com:garbados/mastodon-ebooks.git
 $ cd mastodon-ebooks
 $ pip install -r requirements.txt
 $ python cli.py setup
