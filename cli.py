@@ -6,8 +6,12 @@ def cli():
 	pass
 
 @cli.command()
-@click.option("--api-url", default="https://botsin.space")
+@click.option("--api-url", default="https://botsin.space", help="The instance hosting your bot account.")
 def setup(api_url):
+	"""
+	Perform first-time setup.
+	Registers the application and retrieves toots.
+	"""
 	click.echo("Performing first-time setup...")
 	ebooks = MastodonEbooks({
 		"api_base_url": api_url
@@ -15,9 +19,13 @@ def setup(api_url):
 	ebooks.setup()
 
 @cli.command()
-@click.option("--api-url", default="https://botsin.space")
-@click.option("--post", default=False, help="Automatically post the generated toot.")
+@click.option("--api-url", default="https://botsin.space", help="The instance hosting your bot account.")
+@click.option("--post", default=False, is_flag=True, help="Automatically post the generated toot.")
 def gen(api_url, post):
+	"""
+	Generate a toot.
+	Optionally require approval before posting.
+	"""
 	click.echo("Generating a toot...")
 	ebooks = MastodonEbooks({
 		"api_base_url": api_url
