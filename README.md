@@ -1,6 +1,6 @@
 # mastodon-ebooks
 
-A tool to create and administer [Markov](https://en.wikipedia.org/wiki/Markov_chain) bots for [Mastodon](https://joinmastodon.org/). Use it to create and administer your very own ebooks:
+A tool to create and administer [Markov](https://en.wikipedia.org/wiki/Markov_chain) bots for [Mastodon](https://joinmastodon.org/). Use it to create and administer your very own ebooks.
 
 Based on the [Lynnesbian](https://github.com/Lynnesbian/mastodon-ebooks) fork of [Jess3Jane](https://github.com/Jess3Jane/mastodon-ebooks)'s ebooks helper.
 
